@@ -1,0 +1,19 @@
+{
+  "name": "morales-pino-chat",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SPA para chatear con Pedro Morales Pino usando Google Gemini AI",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8",
+    "jsdom": "^25.0.1"
+  }
+}
