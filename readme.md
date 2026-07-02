@@ -53,6 +53,26 @@ morales-pino-chat/
 ├── vercel.json
 └── vite.config.js
 
+
+## 🤖 Registro del uso de AI en el proyecto
+
+Este proyecto fue desarrollado con guía de **Claude (Anthropic)**, usado
+principalmente como tutor de código: propuso la arquitectura del proyecto
+(Vite + Vercel Functions + Vitest), explicó la lógica de cada función antes
+de escribirla, y ayudó a depurar errores durante el desarrollo (configuración
+de Vite para SPA, formato de `generationConfig` de la API de Gemini,
+problemas de API key inválida, entre otros). El código fue escrito y
+adaptado por el autor del proyecto, revisando y ejecutando cada parte
+(`npm run dev`, `vercel dev`, `npm test`) antes de avanzar al siguiente
+archivo.
+
+- Se investigó la biografía real de Pedro Morales Pino en fuentes como
+  Banrepcultural, Wikipedia, EcuRed y Radio Nacional de Colombia para que
+  el *system prompt* del personaje fuera fiel a los hechos históricos.
+- Se usó IA para redactar el *system prompt* del personaje y ajustar su
+  tono de un español castellano inicial a uno más latinoamericano.
+- Se usó IA para escribir los tests unitarios de Vitest.
+
 ## Desarrollado por
 Sebastián Pérez R.
 sebastianperodriguez@gmail.com
