@@ -8,7 +8,7 @@ forma segura mediante una **Vercel Serverless Function**.
 
 Proyecto integrador — Módulo 3, carrera de programación en **Henry**.
 
-> 🔗 **Aplicación desplegada:** `<PEGAR AQUÍ LA URL DE VERCEL>`
+> 🔗 **Aplicación desplegada:** https://chat-pedro-morales-pino-pi-m3.vercel.app/
 
 ---
 
